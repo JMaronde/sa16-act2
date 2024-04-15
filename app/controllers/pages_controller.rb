@@ -10,4 +10,8 @@ class PagesController < ApplicationController
   def gallery
     render :gallery
   end
+
+  def contact
+    render :contact
+  end
 end

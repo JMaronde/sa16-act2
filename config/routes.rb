@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
 
   get 'gallery', to: 'pages#gallery'
+
+  get 'contact', to: 'pages#contact'
 end
