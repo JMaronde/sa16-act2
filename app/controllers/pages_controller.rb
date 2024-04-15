@@ -6,4 +6,8 @@ class PagesController < ApplicationController
   def about
     render :about
   end
+
+  def gallery
+    render :gallery
+  end
 end
